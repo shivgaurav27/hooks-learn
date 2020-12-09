@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css';
+import ClassCounterOne from './components/classCounterOne';
 import HooksCounter from './components/HooksCounter';
 import HooksCounterFour from './components/HooksCounterFour';
 import HooksCounterThree from './components/HooksCounterThree';
@@ -11,7 +12,8 @@ function App() {
         {/* <HooksCounter /> */}
         {/* <HooksCounterTwo /> */}
         {/* <HooksCounterThree /> */}
-        <HooksCounterFour />
+        {/* <HooksCounterFour /> */}
+        <ClassCounterOne/>
     </div>
   );
 }
