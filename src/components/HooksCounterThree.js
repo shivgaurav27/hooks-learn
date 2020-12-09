@@ -16,7 +16,7 @@ function HooksCounterThree() {
             />
 
             <h2>Your First Name is {name.firstName}</h2>
-            <h2>Your Last Name is {name.lastName}</h2>
+             <h2>Your Last Name is {name.lastName}</h2>
             {JSON.stringify(name)}
         </div>
     )
